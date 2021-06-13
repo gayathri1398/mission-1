@@ -19,6 +19,7 @@ body{
     padding: 12px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
 
 }
 .navbar{
@@ -124,6 +125,27 @@ body{
 .explore__special__design{
     color: red;
 }
+/* stay updated section */
+.stay__updated__text{
+    margin-top: 34px;
+    font-size: 27px;
+    color: #1d3557;
+    text-align: center;
+}
+#stay__email{
+    height: 31px;
+    width: 85%;
+    border-radius: 4px;
+    text-align: center;
+}
+.stay__email__updates{
+    text-align: center;
+    margin-top: 12px;
+}
+.get__updated__button{
+    text-align: center;
+    margin-top: 12px;
+}
 
 @media(min-width:768px){
 .navbar{
@@ -148,7 +170,7 @@ body{
 }
 .explore__food__items{
     display: flex;
-    gap: 5px;
+    gap: 18px;
     padding:42px;
     margin-top: 25px;
     
@@ -174,6 +196,17 @@ body{
 #food__menu__pizza{
     margin-top: -23px;
     margin-bottom: 23px;
+}
+.explore__button{
+    text-align: center;
+}
+/* stay updated */
+.stay__updated{
+    margin-top: 100px;
+}
+#stay__email{
+    font-size: 12px;
+    font-weight: bold;
 }
 }
 @media(min-width:1020px){
@@ -202,15 +235,50 @@ margin-left: -7px;
 width: 100%;
 top: -56px;
 }
+.explore__food__items {
+    gap: 25px;
+    padding: 50px;
+   
+}
+/* stay updated */
+.stay__updated{
+    margin-top: 10rem;
+}
+.stay__updated__text{
+    font-size: 35px;
+}
+.stay__updated__description{
+    display: flex;
+    gap: 13px;
+    padding-left: 290px;
+    align-items: center;
+    width: 100%;
+}
+#stay__email{
+    width:27rem
+}
 }
 @media(min-width:1400px){
+.primary__button {
+       
+        height: 50px;
+        width: 117px;
+        font-size: 16px;
+    }
 .text__description{
     font-size: 35px;
 }
 .hero__shape{
     top: -82px;
 }
-.explore__menu__head{
-     font-size: 26px;
+#stay__email{
+    width: 29rem;
+    height: 43px;
+    font-size: 18px;
+    margin-left: 8rem;
 }
+/* .explore__button{
+     font-size: 26px; */
+/* } */
+
 }
