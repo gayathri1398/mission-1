@@ -146,6 +146,22 @@ body{
     text-align: center;
     margin-top: 12px;
 }
+/* footer section */
+.footer__zomato{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    );
+    border-radius: 7px 7px 0px 0px;
+    font-size: 11px;
+    padding: 11px;
+    color: white;
+}
 
 @media(min-width:768px){
 .navbar{
@@ -208,6 +224,11 @@ body{
     font-size: 12px;
     font-weight: bold;
 }
+/* footer */
+.footer__zomato{
+    font-size: 15px;
+    padding: 14px;
+}
 }
 @media(min-width:1020px){
     .hero__container{
@@ -257,6 +278,11 @@ top: -56px;
 #stay__email{
     width:27rem
 }
+/* footer */
+.footer__zomato{
+    font-size: 16px;
+    padding: 12px;
+}
 }
 @media(min-width:1400px){
 .primary__button {
@@ -276,6 +302,11 @@ top: -56px;
     height: 43px;
     font-size: 18px;
     margin-left: 8rem;
+}
+/* footer */
+.footer__zomato{
+    font-size: 23px;
+    padding: 26px;
 }
 /* .explore__button{
      font-size: 26px; */
